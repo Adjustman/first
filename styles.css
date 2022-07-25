@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    background-color: antiquewhite;
+    color: #0f141e;
+
+    font-size: 17px;
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.photo {
+    width: 250px;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px rgb(84, 82, 82);
+}
+
+.info h4 {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.container{
+    max-width: 700px ;
+    margin: auto;
+    padding-top: 30px;
+}
+.education {
+   background: rgb(167, 160, 160); 
+   padding: 15px;
+   border: 5px solid rgb(184, 178, 178);
+   margin: 20px;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red{
+    background: #ffe5e5;
+}
+
+.bg-brown{
+    background: #d7d2d2;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+   color: #86898f ;
+   margin-bottom: 3px;
+   border-bottom: 1px solid rgb(156, 153, 153);
+   width: 190px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2) {
+    color: #86898f;
+}
+
+.table tr:nth-child(odd) {
+    background: #e9e4e4;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #363739;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box; 
+    border: none;
+    border-bottom: 2px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    background: transparent;
+
+}
+
+.row {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group: :last-child {
+    margin-right: 0;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+
+
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h1 {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: #111;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
